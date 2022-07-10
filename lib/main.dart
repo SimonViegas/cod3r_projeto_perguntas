@@ -6,6 +6,7 @@ void main() => runApp(const PerguntasApp());
 
 class _PerguntaAppState extends State<PerguntasApp> {
   var _perguntaSelecionada = 0;
+  var _pontuacaoTotal = 0;
   final _perguntas = const [
     {
       'texto': 'Qual é o maior time de futebol da Bahia',
@@ -29,10 +30,11 @@ class _PerguntaAppState extends State<PerguntasApp> {
 
   final textoResultado = 'Parabéns';
 
-  void _responder() {
+  void _responder(int pontuacao) {
     if (temPerguntaSeleciona) {
       setState(() {
         _perguntaSelecionada++;
+        _pontuacaoTotal += pontuacao;
       });
     }
   }
