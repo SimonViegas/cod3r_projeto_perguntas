@@ -10,19 +10,19 @@ class _PerguntaAppState extends State<PerguntasApp> {
     {
       'texto': 'Qual é o maior time de futebol da Bahia',
       'respostas': [
-        {'texto': 'Bahia', 'nota': 10},
-        {'texto': 'Vicetória', 'nota': 5},
-        {'texto': 'Juazeirense', 'nota': 3},
-        {'texto': 'Jacuipense', 'nota': 1},
+        {'texto': 'Bahia', 'pontuacao': 10},
+        {'texto': 'Vicetória', 'pontuacao': 5},
+        {'texto': 'Juazeirense', 'pontuacao': 3},
+        {'texto': 'Jacuipense', 'pontuacao': 1},
       ]
     },
     {
       'texto': 'Qual a cor do cavalo branco do Napoleão',
       'respostas': [
-        {'texto': 'Coelho', 'nota': 10},
-        {'texto': 'Cobra', 'nota': 5},
-        {'texto': 'Elefante', 'nota': 3},
-        {'texto': 'Leão', 'nota': 1},
+        {'texto': 'Coelho', 'pontuacao': 10},
+        {'texto': 'Cobra', 'pontuacao': 5},
+        {'texto': 'Elefante', 'pontuacao': 3},
+        {'texto': 'Leão', 'pontuacao': 1},
       ]
     }
   ];
